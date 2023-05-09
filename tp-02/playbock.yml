@@ -1,0 +1,8 @@
+---
+- name: "my first playboock"
+  hosts:
+   - all
+  tasks:
+    - name: "affiche contenue"
+      shell:
+        cmd: "ls -lrat"
